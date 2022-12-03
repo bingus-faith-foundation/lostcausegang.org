@@ -1,3 +1,7 @@
-title: lostcausegang.org
+title: Lost Cause Gang
+email: hello@lostcausegang.org
 description: Official website of Lost Cause Gang
-url: https://lostcausegang.org
+baseurl: "" 
+url: ""
+
+markdown: kramdown

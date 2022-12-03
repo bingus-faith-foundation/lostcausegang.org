@@ -1,8 +1,7 @@
 source "https://rubygems.org"
 
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", ">= 1", "< 3"
-  gem "tzinfo-data"
-end
+gem "jekyll", "~> 3.9.2"
+
+gem "kramdown-parser-gfm"
 
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
