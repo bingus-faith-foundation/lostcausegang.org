@@ -1,5 +1,5 @@
 ---
----
+--- 
 
 body {
     margin: 0;
@@ -10,7 +10,7 @@ h1 {
 }
 
 .logo {
-    width: 13%;
+    width: 12em;
     margin-left: 1em;
 }
 
@@ -56,6 +56,40 @@ h1 {
     margin: auto;
 }
 
-.bold-name {
-    font-family: "Arial Bold";
+@font-face {
+    font-family: 'Arial Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Arial Black'), url('ARIBLK.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Arial Narrow Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Arial Narrow Bold'), url('ARIALNB.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Arial Narrow';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Arial Narrow'), url('ARIALN.ttf') format('ttf');
+}
+
+@media only screen and (max-width: 765px) {
+    .statement {
+        width: 70%;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .statement {
+        font-size: 3em;
+    }
+    .menu {
+        font-size: 2.5em;
+    }
 }
