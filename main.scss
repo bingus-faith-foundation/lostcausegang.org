@@ -67,14 +67,14 @@ h1 {
     font-family: 'Arial Narrow Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Arial Narrow Bold'), url('ARIALNB.ttf') format('ttf');
+    src: local('Arial Narrow Bold'), url('ARIALNB.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Arial Narrow';
     font-style: normal;
     font-weight: normal;
-    src: local('Arial Narrow'), url('ARIALN.ttf') format('ttf');
+    src: local('Arial Narrow'), url('ARIALN.TTF') format('truetype');
 }
 
 @media only screen and (max-width: 765px) {
